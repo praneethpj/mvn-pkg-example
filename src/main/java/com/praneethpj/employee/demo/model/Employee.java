@@ -12,8 +12,10 @@ import org.springframework.context.annotation.Configuration;
 public class Employee {
     private int employeeId;
     private String employeeName;
+    private String address;
 
-    public static void display(String s){
-        System.out.println(s);
+    public void display(String name,int id){
+        System.out.println(""+name+" "+id);
     }
+
 }
